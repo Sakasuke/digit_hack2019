@@ -5,6 +5,12 @@
   margin: 0px auto;
 }
 
+.status-wrap{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
 body {
     width: 100%;
     background: #fff;
@@ -148,6 +154,21 @@ body {
 .btn-right{
     right: 0;
     bottom: 0;
+}
+.manual-checkbox{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+input[type=checkbox] {
+  transform: scale(4.0);
+}
+.manual-checkbox-txt{
+    display: inline-block;
+    font-size: 3vw;
+    position: absolute;
+    left: 15%;
+    top: 1%;
 }
 
 /*LIFF app js*/
