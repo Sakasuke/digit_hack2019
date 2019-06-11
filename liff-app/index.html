@@ -4,7 +4,9 @@
     <meta charset='utf-8'>
     <title>hackson</title>
     <link rel='stylesheet' href='stylesheets/hackson.css'>
-   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/eruda/1.4.3/eruda.min.js"></script>
+    <script src=" https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+    <script src="liff.js"></script>
   </head>
   <body>
     <div class='main'>
@@ -22,6 +24,7 @@
         <img id="target" class="btn-ctl" src="img/ctl.png" alt="">
         <img class="btn-left" src="img/turn-left.png" alt="">
         <img class="btn-right" src="img/turn-right.png" alt="">
+        <button id="btn-led-toggle" class="btn btn-led-toggle" onclick="handlerToggleLed()">LED</button>
       </div>
        <script type="text/javascript" charset="utf-8">
       // <div id="target">...</div>などの要素にタッチイベントを設定

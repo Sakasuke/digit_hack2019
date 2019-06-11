@@ -126,7 +126,7 @@ body {
     height: 60vh;
     content: "";
     background: url('../img/ctl-stage.png') no-repeat center;
-    background-size: 90vw;
+    background-size: 85vw;
     position: relative;
 }
 
@@ -150,6 +150,26 @@ body {
     bottom: 0;
 }
 
+/*LIFF app js*/
+
+.btn-led-toggle {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 20vw;
+    color: #000;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    letter-spacing: 0.2em;
+    font-size: 5vw;
+}
+
+.btn-led-toggle:active {
+    color: yellow;
+}
 
 /** PC用 **/
 @media screen and (min-width : 1000px) {
