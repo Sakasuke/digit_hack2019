@@ -6,6 +6,7 @@
 }
 
 body {
+    width: 100%;
     background: #fff;
     border: 15px solid #ef3f41;
     box-sizing: border-box;
