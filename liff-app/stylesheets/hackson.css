@@ -132,7 +132,7 @@ body {
     height: 60vh;
     content: "";
     background: url('../img/ctl-stage.png') no-repeat center;
-    background-size: 85vw;
+    background-size: 75vw;
     position: relative;
 }
 
