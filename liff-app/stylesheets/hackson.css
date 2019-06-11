@@ -6,8 +6,8 @@
 }
 
 body {
-    width: calc(100% - 30px);
-    background: #454545;
+    width: 100%;
+    background: #fff;
     border: 15px solid #ef3f41;
     box-sizing: border-box;
     margin: 0;
